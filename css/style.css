@@ -1,0 +1,269 @@
+@font-face {
+	font-family: iransansdn;
+	font-style: normal;
+	font-weight: bold;
+	src: url('../Asset/fonts/eot/iransansdnbold.eot');
+	src: url('../Asset/fonts/eot/iransansdnbold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../Asset/fonts/woff2/iransansdnbold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../Asset/fonts/woff/iransansdnbold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../Asset/fonts/ttf/iransansdnbold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iransansdn;
+	font-style: normal;
+	font-weight: 300;
+	src: url('../Asset/fonts/eot/iransansdnlight.eot');
+	src: url('../Asset/fonts/eot/iransansdnlight.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../Asset/fonts/woff2/iransansdnlight.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../Asset/fonts/woff/iransansdnlight.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../Asset/fonts/ttf/iransansdnlight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: iransansdn;
+	font-style: normal;
+	font-weight: normal;
+	src: url('../Asset/fonts/eot/iransansdn.eot');
+	src: url('../Asset/fonts/eot/iransansdn.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../Asset/fonts/woff2/iransansdn.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../Asset/fonts/woff/iransansdn.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../Asset/fonts/ttf/iransansdn.ttf') format('truetype');
+}
+*{
+    font-family: iransansdn;
+	text-align: right;
+	direction: rtl;
+}
+body{
+	background-color: #111b28;
+	color: #fff;
+}
+.placeholder{
+	font-size: 14px;
+
+}
+.dropdown-menu{
+	text-align: right;
+	border-radius: 15px;
+	margin-left: -38px;
+}
+.dropdown-menu a:hover{
+	background-color: #5B84C4;
+} 
+.dropdown-menu a{
+	font-size: 13px;
+}
+.information-site{
+	background-color: #111b28 !important;
+	border-left: 50px solid #111b28;
+	border-right: 50px solid #111b28;
+	text-align: center;
+	padding: 6px;
+}
+.information-site img{
+	height: 150px;
+}
+.information-site span{
+	color:#fff;
+	font-size: 13px;
+}
+.navbar{
+	background-color: #111b28 !important;
+	border: 1px solid #fff;
+	border-color: #5B84C4 !important;
+	border-radius: 15px;
+
+}
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active
+{
+	color: #fff !important;
+}
+.navbar-light .navbar-nav .nav-link
+{
+	color: #fff !important;
+}
+.navbar-light .navbar-brand
+{
+  color: #fff !important;
+}
+.btn-outline-success
+{
+  color: #fff;
+  border: 1px solid #5B84C4 !important;
+  margin-right: 3px;
+}
+.btn-outline-success:hover{
+	background-color: #5B84C4 !important;
+	border-color: #5B84C4 !important;
+}
+
+.form-control
+{
+  color: #111b28 !important;
+  background-color: #111b28;
+  border: 1px solid #5B84C4 !important;;
+}
+.post-item a{
+	font-weight: bold !important;
+	font-size: 12px;
+	
+}
+.post-item p{
+	padding-top: 18px ;
+}
+
+a{
+	color: #76b2ff;
+	text-decoration: none ;
+}
+a:hover{
+	text-decoration: none;
+}
+.post-item{
+	border: 1px solid #5B84C4;
+	margin-top: 25px;
+}
+.post-item span{
+	color: #686e71;
+	font-size: 14px;
+}
+.post-caption{
+	padding: 0 11px;
+}
+.hover-image-post{
+		height: 250px;
+		width: 348px;
+		background-color: #000;
+		opacity: 0.6;
+		margin-top: -249px;
+}
+.more-opst{
+	font-size: 15px !important;
+	border: 1.5px solid #fff;
+	color: #fff;
+	margin-top: -139px;
+	position: absolute;
+	margin-right: 114px;
+	border-radius: 7px;
+}
+.more-opst:hover{
+	color:#fff;
+	border-radius: 0;
+}
+.hovershow{
+	display: none;
+}
+.post-item:hover .hovershow{
+	display: block;
+}
+footer .footer1{
+	background: url('https://toplearn.com/site/images/footer-pattern.png') repeat 0 0 #5B84C4;
+	height: 250px;
+}
+.btn-success
+{
+  background-color: #273e5c !important;
+  color: #fff;
+  border-color: #273e5c !important;
+}
+.btn-success:hover{
+	background-color: #111b28 !important;
+	border-color: #111b28 !important;
+}
+footer .footer1 form input.input-group{
+	width: 84%;
+	height: 42px;
+	display: inline;
+	border: 0px;
+	border-radius: 6px;
+
+}
+.foot{
+	margin-right: 282px;
+}
+.post-page{
+	padding: 20px;
+	margin-right: 289px;
+	border: 2px dashed #5B84C4;
+	border-radius: 15px;
+}
+.image-post img{
+	border-radius: 10px 10px 250px 10px;
+}
+.person{
+	color:#fff
+}
+.calendar{
+	color: #fff;
+}
+.eye{
+	color: #fff;
+}
+.information-person{
+	margin-top: -39px;
+}
+.information-person svg{
+	margin-top: 4px;
+}
+.content-page{
+	width: 550px;
+	line-height: 37px;
+}
+.comment-img {
+	border-radius: 50%;
+	width: 70px;
+	border: 1px solid #142848;
+ }
+ .btn-warning{
+	background-color: rgb(248, 105, 0);
+	border-color: rgb(248, 105, 0);
+ }
+.username-comment{
+	font-size: 15px;
+	border-left: 1px solid #142848;
+	display: inline-block;
+	padding-left:10px ;
+}
+.commnent-text span{
+	font-size: 12px;
+	opacity: 0.8;
+	padding-right: 5px;
+	border-left: 1px solid #142848;
+	padding-left:10px ;
+}
+.commnent-text a{
+   font-size: 12px;
+}
+p.commnent-text{
+	border: 1px solid #142848;
+	padding: 15px;
+	border-radius: 5px;
+	margin-right: 80px;
+	margin-top: -75px;
+}
+p.text-comment{
+	font-size: 14px;
+}
+.commnent-text{
+	border: 1px solid #142848;
+	border-radius: 12px;
+	padding: 20px;
+	margin-top: -73px;
+	margin-right: 80px;
+	margin-bottom: 20px;
+}
+.register-form input{
+	width: 100%;
+	margin-bottom: 20px;
+	height: 43px;
+	border-radius: 10px;
+	/* outline: none; */
+	border: 1px solid #142848;
+	background-color: #c6dcff;
+	font-size: 14px;
+	padding: 5px 8px;
+}
+.register-submit{
+	background-color: #007bff !important;
+}
